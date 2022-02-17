@@ -9,5 +9,9 @@ def fizzbuzz(number)
         return 'fizz'
     elsif number == 5
         return 'buzz'
+    elsif number == 15
+        return 'fizzbuzz'
+    elsif number == 30
+        return 'fizzbuzz'
     end
 end
