@@ -5,16 +5,16 @@
 # In all other cases, the program simply returns the given number.
 
 def fizzbuzz(number)
-    if number == 15 || number == 30 || number == 45 
+    if number.remainder(3) == 0 && number.remainder(5) == 0
         return 'fizzbuzz'
     elsif number.remainder(3) == 0
         return 'fizz'
-    elsif number == 5
+    elsif number.remainder(5) == 0
         return 'buzz'
+    else 
+        return number
     end
 end
 
 # what is the remainder of 3/3
 # if 
-
-
